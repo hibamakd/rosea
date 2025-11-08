@@ -1,0 +1,243 @@
+<!DOCTYPE html>  
+<html lang="fr">  
+<head>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>Roséa Skin</title>  
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">  
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">  
+<style>  
+    body { font-family: 'Poppins', sans-serif; color:#333; background:rgba(254, 254, 254, 0.804); text-align: center; } 
+     
+    .navbar-custom { background-color: #ffc0cbe6; box-shadow:0 2px 5px #0000001a; }  
+    .btn-cta { background-color:#FFC0CB; color:#fff; border-radius:50px; position:relative; }  
+    .card-custom { border:none; border-radius:15px; box-shadow:0 4px 12px rgba(0,0,0,0.1); }  
+    footer { background-color: #ffc0cbdc; padding:30px 0; }  
+    footer a { color:#333; text-decoration:none; }  
+    .icon-navbar { font-size:1.2rem; margin-left:15px; color:#464646; }  
+    .nos { color: #e2a4af; font-style: oblique; }  
+    /* Section Mission */  
+    .mission-section {  
+        background-color: #fff0f3;  
+        padding: 60px 20px;  
+        text-align: center;  
+        border-radius: 15px;  
+        margin-top: 40px;  
+        box-shadow: 0 4px 15px rgba(0,0,0,0.05);  
+    }  
+    .mission-section h2 {  
+        color: #e38b99;  
+        font-weight: 700;  
+    }  
+    .mission-section p {  
+        font-size: 1.1rem;  
+        color: #555;  
+        max-width: 700px;  
+        margin: 20px auto 0;  
+        
+    }  
+    /* Section Témoignages */  
+    .testimonials {  
+        background-color: #fff;  
+        padding: 70px 20px;  
+        text-align: center;  
+    }  
+    .testimonials h2 {  
+        color: #e38b99;  
+        font-weight: 700;  
+        margin-bottom: 40px;  
+    }  
+    .testimonial-card {  
+        background-color: #fff0f3;  
+        border-radius: 15px;  
+        padding: 30px;  
+        box-shadow: 0 4px 10px #0000000d;  
+         
+    }  
+    .testimonial-card:hover {  
+        transform: translateY(-11px);  
+    }  
+    .testimonial-text {  
+        font-style: italic;  
+        color: #555;  
+    }  
+    .testimonial-author {  
+        margin-top: 15px;  
+        font-weight: 600;  
+        color: #e38b99;  
+    }  
+    /* Bouton outline rose */  
+    .btn-btn-cta {  color: #e38b99;  
+    border: 2px solid #d56e7f;  
+    border-radius: 30px;  
+    padding: 10px 25px;  
+    font-weight: 500;  
+    transition: all 0.3s ease;  
+}  
+.btn-btn-cta:hover {  
+    background-color: #e38b99;  
+    color: #757171;  
+}  
+.btn-outline-pink{  
+    color: #e38b99;  
+    border: 2px solid #e16277;  
+    border-radius: 30px;  
+    padding: 10px 25px;  
+    font-weight: 500;  
+      
+    transition: all 0.4s ease;  
+
+}  
+.btn-outline-pink:hover{ 
+    background-color: #e38b99;  
+    color: #000000;  
+}
+
+</style>  
+</head>  
+<body class="">  
+<!-- Navbar -->  
+<nav class="navbar navbar-expand-lg navbar-custom py-2">  
+<div class="container shadow rounded">  
+    <a class="navbar-brand fw-bold fs-3" href="#"><i class="fa-solid fa-leaf fw-semibold"></i> Roséa Skin </a>  
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">  
+      <span class="navbar-toggler-icon"></span>  
+    </button>  
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">  
+        <ul class="navbar-nav me-3">  
+            <li class="nav-item"><a class="nav-link" href="acceuil">Accueil</a></li>  
+            <li class="nav-item"><a class="nav-link" href="produits">Produits</a></li>  
+            <li class="nav-item"><a class="nav-link" href="categories">Catégories</a></li>  
+            <li class="nav-item"><a class="nav-link" href="contact">Contact</a></li>  
+        </ul>  
+        <div class="d-flex align-items-center">  
+            <a href="#" class="icon-navbar"><i class="fa-regular fa-heart"></i></a>  
+            <a href="#" class="icon-navbar"><i class="fa-solid fa-cart-shopping"></i></a>  
+            <span class="ms-3 text-dark"><i class="fa-solid fa-location-dot"></i> Casablanca</span>  
+            <a class="btn btn-outline-dark ms-3 my-2" href="#">Acheter </a>  
+        </div>  
+    </div>  
+</div>  
+</nav>  
+<!-- 🌸 Section Mission -->  
+<div class="container mission-section mt-5 shadow">  
+  <div class="row align-items-center">  
+    <div class="col-md-6 text-center text-md-start">  <!-- donner align-center dans les small screen  --> 
+      <h2> 🌸 Votre peau mérite l’excellence</h2>  
+      <p>  
+        <span class="fw-bold text-dark fst-italic">Roséa Skin</span> : des soins  
+        naturels et efficaces pour révéler l’éclat de votre peau, en toute  
+        douceur. Découvrez l’harmonie entre nature et beauté pour un éclat  
+        durable.  
+      </p>  
+      <a href="nos soins" class="btn btn-outline-pink mt-3 px-4 py-2">Découvrir nos soins</a>  
+    </div>  
+    <div class="col-md-6 text-center mt-4 mt-md-0">  
+      <img src="img/4.jpg" alt="Soin de la peau" class="img-fluid rounded shadow-sm" style="max-width: 60%; border-radius: 20px; " />  
+    </div>  
+  </div>  
+</div>  
+<!-- 🛍 Section Produits -->  
+<div class="container mb-3">  
+    <h2 class="text-center mb-4 nos fw-bold text-shadow mt-5">Nos Produits</h2>  
+    <div class="row g-4">  
+        <!-- Produit 1 -->  
+        <div class="col-md-4 text-center">  
+            <div class="card card-custom">  
+                <img src="img/2.jpg" class="card-img-top" alt="Crème Hydratante">  
+                <div class="card-body">  
+                    <h5 class="card-title">Crème Hydratante</h5>  
+                    <p class="card-text">Hydratation intense et parfum délicat</p>  
+                    <p class="fw-bold  p-2">150 MAD</p>  
+                    <a href="#" class="btn-btn-cta text-decoration-none">Ajouter au panier</a>  
+                </div>  
+            </div>  
+        </div>  
+        <!-- Produit 2 -->  
+        <div class="col-md-4 text-center">  
+            <div class="card card-custom">  
+                <img src="img/1.jpg" class="card-img-top" alt="Sérum Éclat">  
+                <div class="card-body">  
+                    <h5 class="card-title">Sérum Éclat</h5>  
+                    <p class="card-text">Révèle la luminosité naturelle de votre peau</p>  
+                    <p class="fw-bold  p-2">200 MAD</p>  
+                    <a href="#" class="btn-btn-cta text-decoration-none">Ajouter au panier</a>  
+                </div>  
+            </div>  
+        </div>  
+        <!-- Produit 3 -->  
+        <div class="col-md-4 text-center">  
+            <div class="card card-custom">  
+                <img src="img/3.jpg" class="card-img-top" alt="Masque Visage">  
+                <div class="card-body">  
+                    <h5 class="card-title">Masque Visage</h5>  
+                    <p class="card-text">Purifie et adoucit la peau en profondeur</p>  
+                    <p class="fw-bold p-2">120 MAD</p>  
+                    <a href="#" class="btn-btn-cta text-decoration-none">Ajouter au panier</a>  
+                </div>  
+            </div>  
+        </div>  
+    </div>  
+</div>  
+<!-- 💬 Section Témoignages -->  
+<section class="testimonials">  
+    <div class="container">  
+        <h2 class="fw-bold ">Ils Nous Font Confiance</h2>  
+        <div class="row g-4 justify-content-center">  
+            <div class="col-md-4">  
+                <div class="testimonial-card">  
+                    <p class="testimonial-text">  
+                        « J’ai retrouvé une peau plus douce et moins rouge après 2 semaines d’utilisation.   
+                        Produit léger et parfum délicat — je recommande ! »  
+                    </p>  
+                    <p class="testimonial-author">— Salma, 28 ans</p>  
+                </div>  
+            </div>  
+            <div class="col-md-4">  
+                <div class="testimonial-card">  
+                    <p class="testimonial-text">  
+                        « Le sérum éclat a transformé mon teint : plus lumineux et uniforme.   
+                        J’aime la texture non grasse. »  
+                    </p>  
+                    <p class="testimonial-author">— Amina, 34 ans</p>  
+                </div>  
+            </div>  
+            <div class="col-md-4">  
+                <div class="testimonial-card">  
+                    <p class="testimonial-text">  
+                        « Service client très réactif et livraison soignée.   
+                        Les produits tiennent leurs promesses. »  
+                    </p>  
+                    <p class="testimonial-author">— Nora, 41 ans</p>  
+                </div>  
+            </div>  
+        </div>  
+    </div>  
+</section>  
+<!-- Footer -->  
+<footer>  
+<div class="container mb-5 text-center m-auto py-2 ">  
+    <div class="row  text-md-start">  
+        <div class="col-md-3 mb-3 mt-5">  
+            <h6 class="fst-italic fw-bold"><i class="fa-solid fa-store me-2"></i>Boutiques</h6>  
+            <p>Casablanca, Marrakech, Rabat</p>  
+        </div>  
+        <div class="col-md-3 mb-3 mt-5">  
+            <h6 class="fst-italic fw-bold"><i class="fa-solid fa-info-circle me-2"></i>À propos</h6>  
+            <p>Roséa Skin, votre univers de beauté féminine.</p>  
+        </div>  
+        <div class="col-md-3 mb-3 mt-5">  
+            <h6 class="fst-italic fw-bold"><i class="fa-solid fa-lock me-2"></i>Confidentialité</h6>  
+            <p>Mentions légales et politique de confidentialité</p>  
+        </div>  
+        <div class="col-md-3 mb-3 mt-5">  
+            <h6 class="fst-italic fw-bold"><i class="fa-solid fa-envelope me-2"></i>Contact</h6>  
+            <p>Email: contact@rosea.com<br>Téléphone: +212 600 000 000</p>  
+        </div>  
+    </div>  
+</div>  
+</footer>  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>  
+</body>
+</html>
